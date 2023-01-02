@@ -1,4 +1,4 @@
-## Instructions:
+# Instructions:
 
 # Set up a Git repository:
 Choose a service such as GitHub or GitLab to host your repository, and create a new repository for your project. Follow the instructions provided by the service to create the repository and set it up in IntelliJ IDEA.
