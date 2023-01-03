@@ -5,3 +5,7 @@
 -proper IDE selection for colaboration
 
 -connecting to API
+
+-use of precise and complete scientific communicaiton in ordr to solve prblems within a team
+
+-learnring to use proper doumentation within souce code and within GitHub text files
