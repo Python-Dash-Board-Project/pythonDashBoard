@@ -1,0 +1,17 @@
+import matplotlib.pyplot as plt
+
+# Data to plot
+labels = ['A', 'B', 'C', 'D']
+sizes = [15, 30, 45, 10]
+colors = ['#ff9999', '#66b3ff', '#99ff99', '#ffcc99']
+
+# Create the pie chart
+plt.pie(sizes, labels=labels, colors=colors)
+
+# Add a title
+plt.title('My Pie Chart')
+
+# Show the plot
+plt.show()
+
+---
