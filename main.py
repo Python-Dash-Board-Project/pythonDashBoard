@@ -1,48 +1,45 @@
-
 # there should be no mysteries
 # TODO watch a video about numpy capabilities
 
 
 
-
-# import numpy
+import numpy
 import pandas as pd
 import matplotlib.pyplot as plt
 
-# load data from csv file
-data_frame = pd.read_csv('personal_transactions')
+
+#
+# Open the CSV file
+with open('data.csv', 'r') as file:
+    # Create a CSV reader
+    reader = csv.reader(personal_transactions.csv)
+
+    # Initialize an empty list
+    data = [1,2,3,4,5,6]
+
+    # Iterate over the rows of the CSV
+    for row in reader:
+        # Append the values to the list
+        data.append(row)
+
+# Print the imported data
+print(data)
+import matplotlib.pyplot as plt
+
+# Define the categories and values
+categories = ['Category 1', 'Category 2', 'Category 3']
+values = [10, 20, 30]
+
+# Create a figure and axes
+fig, ax = plt.subplots()
+
+# Create a bar plot
+ax.bar(categories, values)
+
+# Show the plot
+plt.show()
 
 
-def create_line_plot():
-   # create x and y values
-   data_frame.plot(x='Date', y='Amount')
-
-   # add title and labels to graph
-   plt.title('Goat graph')
-
-   plt.xlabel('Date')
-   plt.ylabel('Amount')
-
-   # display plot
-   plt.show()
-def create_pie():
-   # Data to plot
-   labels = ['Platinum Card', 'Checking', 'Silver Card']
-   # Size should be equal to the number of instances of each card
-   sizes = data_frame['Card Type']
-   # Size should be equal to the number of instances of each card
-   colors = ['#ff9999', '#66b3ff', '#99ff99']
-
-   # Create the pie chart
-   plt.pie(sizes, labels=labels, colors=colors)
-
-   # Add a title
-   plt.title('Card type usage')
-
-   # Show the plot
-   plt.show()
 
 
-# function calls
-create_line_plot()
-create_pie()
+
